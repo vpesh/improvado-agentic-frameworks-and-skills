@@ -1,0 +1,119 @@
+{
+  "input": {
+    "title": "Understanding AI Agent Architecture",
+    "url": "https://example.com/ai-agents",
+    "markdown_content": "# Understanding AI Agent Architecture\n\nThis article explores modern AI agent design patterns.\n\n## Architecture Overview\n\n```mermaid\ngraph TD\n    A[User Input] --> B[Agent Core]\n    B --> C[Tool Selection]\n    C --> D[Execution]\n    D --> E[Response]\n```\n\nThe system follows a modular approach.\n\n## Key Components\n\n- **Agent Core:** Central decision-making module\n- **Tool Registry:** Available actions and APIs\n- **Memory:** Context and conversation history\n\n## Implementation\n\n```python\nclass Agent:\n    def __init__(self, tools):\n        self.tools = tools\n        self.memory = []\n    \n    def process(self, input):\n        return self.decide(input)\n```\n\n## Conclusion\n\nAI agents represent the future of autonomous systems."
+  },
+  "output": {
+    "success": true,
+    "blocks": [
+      {
+        "type": "heading_1",
+        "heading_1": {
+          "rich_text": [{"type": "text", "text": {"content": "Understanding AI Agent Architecture"}}]
+        }
+      },
+      {
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [{"type": "text", "text": {"content": "This article explores modern AI agent design patterns."}}]
+        }
+      },
+      {
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [{"type": "text", "text": {"content": "Architecture Overview"}}]
+        }
+      },
+      {
+        "type": "code",
+        "code": {
+          "language": "mermaid",
+          "rich_text": [{"type": "text", "text": {"content": "graph TD\n    A[User Input] --> B[Agent Core]\n    B --> C[Tool Selection]\n    C --> D[Execution]\n    D --> E[Response]"}}]
+        }
+      },
+      {
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [{"type": "text", "text": {"content": "The system follows a modular approach."}}]
+        }
+      },
+      {
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [{"type": "text", "text": {"content": "Key Components"}}]
+        }
+      },
+      {
+        "type": "bulleted_list_item",
+        "bulleted_list_item": {
+          "rich_text": [{"type": "text", "text": {"content": "**Agent Core:** Central decision-making module"}}]
+        }
+      },
+      {
+        "type": "bulleted_list_item",
+        "bulleted_list_item": {
+          "rich_text": [{"type": "text", "text": {"content": "**Tool Registry:** Available actions and APIs"}}]
+        }
+      },
+      {
+        "type": "bulleted_list_item",
+        "bulleted_list_item": {
+          "rich_text": [{"type": "text", "text": {"content": "**Memory:** Context and conversation history"}}]
+        }
+      },
+      {
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [{"type": "text", "text": {"content": "Implementation"}}]
+        }
+      },
+      {
+        "type": "code",
+        "code": {
+          "language": "python",
+          "rich_text": [{"type": "text", "text": {"content": "class Agent:\n    def __init__(self, tools):\n        self.tools = tools\n        self.memory = []\n    \n    def process(self, input):\n        return self.decide(input)"}}]
+        }
+      },
+      {
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [{"type": "text", "text": {"content": "Conclusion"}}]
+        }
+      },
+      {
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [{"type": "text", "text": {"content": "AI agents represent the future of autonomous systems."}}]
+        }
+      }
+    ],
+    "batches": [
+      [
+        {"type": "heading_1", "heading_1": {"rich_text": [{"type": "text", "text": {"content": "Understanding AI Agent Architecture"}}]}},
+        {"type": "paragraph", "paragraph": {"rich_text": [{"type": "text", "text": {"content": "This article explores modern AI agent design patterns."}}]}},
+        {"type": "heading_2", "heading_2": {"rich_text": [{"type": "text", "text": {"content": "Architecture Overview"}}]}},
+        {"type": "code", "code": {"language": "mermaid", "rich_text": [{"type": "text", "text": {"content": "graph TD\n    A[User Input] --> B[Agent Core]\n    B --> C[Tool Selection]\n    C --> D[Execution]\n    D --> E[Response]"}}]}},
+        {"type": "paragraph", "paragraph": {"rich_text": [{"type": "text", "text": {"content": "The system follows a modular approach."}}]}},
+        {"type": "heading_2", "heading_2": {"rich_text": [{"type": "text", "text": {"content": "Key Components"}}]}},
+        {"type": "bulleted_list_item", "bulleted_list_item": {"rich_text": [{"type": "text", "text": {"content": "**Agent Core:** Central decision-making module"}}]}},
+        {"type": "bulleted_list_item", "bulleted_list_item": {"rich_text": [{"type": "text", "text": {"content": "**Tool Registry:** Available actions and APIs"}}]}},
+        {"type": "bulleted_list_item", "bulleted_list_item": {"rich_text": [{"type": "text", "text": {"content": "**Memory:** Context and conversation history"}}]}},
+        {"type": "heading_2", "heading_2": {"rich_text": [{"type": "text", "text": {"content": "Implementation"}}]}},
+        {"type": "code", "code": {"language": "python", "rich_text": [{"type": "text", "text": {"content": "class Agent:\n    def __init__(self, tools):\n        self.tools = tools\n        self.memory = []\n    \n    def process(self, input):\n        return self.decide(input)"}}]}},
+        {"type": "heading_2", "heading_2": {"rich_text": [{"type": "text", "text": {"content": "Conclusion"}}]}},
+        {"type": "paragraph", "paragraph": {"rich_text": [{"type": "text", "text": {"content": "AI agents represent the future of autonomous systems."}}]}}
+      ]
+    ],
+    "metadata": {
+      "total_blocks": 13,
+      "mermaid_count": 1,
+      "code_blocks_count": 2,
+      "headings_count": 4,
+      "paragraphs_count": 3,
+      "lists_count": 3,
+      "requires_batching": false,
+      "batch_count": 1
+    }
+  }
+}
